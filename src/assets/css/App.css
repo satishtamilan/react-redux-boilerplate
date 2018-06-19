@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+$color-border: #CDCDCD;
+$color-label: darken($color-border, 20%);
+$color-primary: #1695A3;
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*.field {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.errors {
+  font-size: 0.8rem;
+  color: #EE0000;
+  margin-top: 0.25rem;
+  animation: slide-down 0.3s backwards ease-in-out;
+  
+  @keyframes slide-down {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+  }
+  
+  > span {
+    display: block;
+  }
+}
+
+label {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  color: $color-label;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea {
+  display: flex;
+  appearance: none;
+  border: 1px solid $color-border;
+  font-size: 1rem;
+  padding: 0.5rem;
+  min-width: 20rem;
+  
+  &:focus {
+    outline: 2px solid $color-primary;
+  }
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button {
+  appearance: none;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background: $color-primary;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5rem 0;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+  
+  + button {
+    margin-left: 1rem;
+  }
+  
+  &.secondary {
+    color: $color-primary;
+    background: transparent;
+    border: 1px solid $color-primary;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+body, html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}*/
+.field {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.errors {
+  font-size: 0.8rem;
+  color: #EE0000;
+  margin-top: 0.25rem;
+  animation: slide-down 0.3s backwards ease-in-out;
+  
+  @keyframes slide-down {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+  }
+}
+
+label {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  color: $color-label;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea {
+  appearance: none;
+  border: 1px solid $color-border;
+  font-size: 1rem;
+  padding: 0.5rem;
+  
+  
+  &:focus {
+    outline: 2px solid $color-primary;
+  }
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button {
+  appearance: none;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background: $color-primary;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5rem 0;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+  
+  + button {
+    margin-left: 1rem;
+  }
+  
+  &.secondary {
+    color: $color-primary;
+    background: transparent;
+    border: 1px solid $color-primary;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+.mainheader{ background-color:#fff; position:relative; display:block;}
+.form-group { position: relative; margin-bottom: 15px; margin-top: 10px; padding-bottom: 10px; }
+.form-control-placeholder{position: absolute;  top: 0; padding: 7px 0 0 13px; transition: all 200ms; opacity: 0.5; display: block; }
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {font-size: 90%;transform: translate3d(0, -100%, 0); opacity: 1; display: block;
+  }
+  .bg_black{ background-color: #197326;}
+  .pull-right{ float:right;}
+  .d-inline{ display:inline-block;}
+  .p-l-0{ padding-left:0px;}
+  .login_button{margin: 0 auto;  margin-bottom: 15px; padding:12px 15px; color:#fff; display:inline-block; background-color:#197326; font-weight:600;
+      text-align: center; margin-right: 20px; cursor:pointer;}
+.submit_button{margin: 0 auto;  margin-bottom: 15px; padding:12px 15px; color:#fff; display:block; background-color:#197326; font-weight:600;
+      text-align: center;cursor:pointer; width: 26%;}
+.m-t-5per{margin-top: 5%;}
+.d-inflex{ display: inline-flex;}
+  .bg-white{ background-color:#fff; border-radius:3px;}
+  .info_page{ padding: 10px 0}
+  .info_page form{ padding:0 15px;}
+  .m-t-4pec{ margin-top:4%;}
+  .top40px{ top: 40px;}
+  .p-r-10px{ padding-right: 10px;}
+  .info_page .form-group{ margin-bottom: 0px !important;}
+  .togglecolor{ padding: 25px 0}
+  .togglecolor button{ color: #000; background: #fff; border: 1px solid #000;-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
+.m-b-5per{ margin-bottom: 5%;}
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  background-color:#eaeaea  !important;
+}
+
+body, html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+

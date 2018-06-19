@@ -1,0 +1,76 @@
+.firstlogo
+{
+  font-weight: bold;
+  font-size: 16px;   
+  vertical-align: sub;
+}
+.logo_left
+{
+     float: left;
+	 width: 30%;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding-left: 15px;
+}
+.logo_left_img
+{
+	    width: 40px;
+    height: 40px;
+        margin-left: 0px;
+    margin-top: 8px;
+}
+.logo_right
+{
+	float: right;
+    width: 30%;
+    text-align: center;
+    padding-right: 15px;
+}
+.logo_right p
+{
+	font-weight: bold;
+	padding-right: 15px;
+}
+.logo_right_img
+{
+	    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.bg-info
+{
+	    background-color: #197326!important;
+    color: #fff;
+        padding: 14px 0px;
+}
+.container-fluid
+{
+	    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+        border-radius: 0px;
+		height:100%;
+}
+.display-3 { font-size: 30px;}
+    .bg_green {   background-color: #197326; }
+    .navbar
+    {
+   margin: 0px;
+    top: 0px;
+    background-color: #197326 !important;padding: 0px;
+    }
+    .navbar-light .navbar-nav .nav-link,  .navbar-light .navbar-nav .nav-link:hover
+    {
+    	color:#fff;
+
+    }
+    .navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.bg_white{background-color: #fff;}
+.navbar-nav .nav-link{
+font-size: 18px;
+padding-right: 30px !important;}
